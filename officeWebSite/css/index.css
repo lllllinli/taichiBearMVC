@@ -1,0 +1,46 @@
+.idxWrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.idxShowbox{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.idxShowboxLoad{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.idxShowboxLoader{
+    display: none;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.idxdxShowboxImges{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.idxdxShowboxImg{
+    float: left;
+    width: 100%;
+}
